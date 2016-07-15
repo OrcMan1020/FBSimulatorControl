@@ -8,6 +8,7 @@ env:
 - TARGET=framework COMMAND=test FBSIMULATORCONTROL_DEVICE_SET=custom FBSIMULATORCONTROL_LAUNCH_TYPE=direct
 - TARGET=cli COMMAND=build
 - TARGET=cli COMMAND=test
+- TARGET=cli COMMAND=e2e-test
 script: ./build.sh
 branches:
   only:
